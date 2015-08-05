@@ -1,0 +1,104 @@
+Vaja 2
+
+Za izdelavo naslednje vaje boste potrebovali izvajalno okolje, ki bo podpiralo php in mysql spletni tehnologiji.
+
+ 
+
+Za upravljanje mysql serverja lahko uporabite spletni vmesnik phpmyadmin ali pa orodje workbench
+
+Na lastnih raèunalnikih si vzpostavite okolje Apache+Mysql+Php (imenovano WAMP za Windows oziroma kak ekvivalent iz seznama)
+
+ 
+
+Rok za oddajo naloge je 19. 3. 2015 ob 23.55!
+
+Oddati je potrebno vso php kodo ter vsebino podatkovne baze z strukturo tabel (dump)
+
+ 
+
+ 
+
+ 
+
+Vaša naloga je izdelati spletno stran za oddajo oglasov s pomoèjo tehnologij php in mysql.
+
+ 
+
+Uporabnik se mora pred oddajo oglasa registrirati, kjer mora pri registraciji obvezno oddati podatke o uporabniškem imenu, geslu, elektronskem naslovu, imenu ter priimku. Omogoèite še dodajanje neobveznih podatkov kot so naslov, pošta, telefonska številka, spol in starost.
+
+ 
+
+Uporabnik lahko po prijavi odda oglas, ki vsebuje naslov, opis, datum oddaje oglasa ter kategorijo, v katero spada oglas. Kategorije naj bodo v naprej doloèene. Oglasu naj se ob oddaji doloèi tudi datum zapadlosti, ki naj bo 30 dni od datuma oddaje.
+
+Uporabnik ima po prijavi možnost pregledati vse svoje oglase (tudi tiste, ki jim je datum zapadlosti potekel). Lahko jih ureja ter jim tudi podaljša zapadlost za novih 30 dni.
+
+Uporabnik lahko oglase tudi izbriše.
+
+Oglasi naj bodo privzeto sortirani po datumu oddaje, uporabnik pa naj ima na voljo tudi filter, kjer lahko skrije oziroma prikaže že zapadle oglase.
+
+ 
+
+Vsi obiskovalci spletne strani lahko preglejujejo oddane oglase. Filtrirajo jih lahko po kategorijah, oglasi pa naj bodo vedno sortirani po datumu zapadlosti (oglasi, ki zapadejo najpozneje, naj bodo na vrhu). Omogoèite tudi iskanje po oglasih, in sicer po naslovu in po opisu oglasa.
+
+Uporabnik si lahko nato ogleda posamezni oglas, pri katerem naj bo izpisan naslov oglasa, opis, uporabnik, ki je oglas oddal ter njegov email ter število ogledov oglasa.
+
+ 
+
+Na strani izdelajte tudi menu, ki neprijavljenemu uporabniku omogoèa prijavo ter povezavo na zaèetno stran, kjer so izpisani oglasi in jih je mogoèe filtrirati in po njih iskati.
+
+Prijavljen uporabnik naj ima v meniju na voljo povezavo do svojih oglasov, možnost odjave ter povezavo na zaèetno stran.
+
+Na strani za prijavo dodajte tudi povezavo za registracijo, kjer si lahko obiskovalci ustvarijo raèun.
+
+ 
+
+Za vzdrežavnje prijave uporabnika uporabite sejo. Podatke pa shranjujte v podatkovni bazi MySQL. Pri shranjevanju in preverjanju gesla uporabite eno izmed zgošèevalnih funkcij.
+
+Smisleno uporabite CSS in HTML elemente, da boste dosegli pregleden naèin uporabe obrazcev, kjer so ti potrebni (registracija, prijava, oddaja oglasa, iskanje).
+
+Razmislite in smiselno oblikujte tudi prikaz seznama oglasov, kjer se morajo izpisati vsaj naslov oglasa, kategorija v katero oglas spada ter število ogledov oglasa.
+
+ 
+
+Vse navedeno je potrebno izdelati za oceno 6.
+
+ 
+
+Za višjo oceno implementirajte še naslednje funkcionalnosti:
+
+
+
+ocena 7:
+
+vse za 6 +
+
+Omogoèite, da se posamezen oglas doda v veè razliènih kategorij. Kategorije naj bodo v naprej doloèene, uporabnik pa lahko pri oddaji izbere, v katere kategorije bo oglas spadal.
+
+ 
+
+ocena 8:
+vse za 7 +
+
+Dodajte možnosti ocenjevanja uporabnikov. Omogoèite, da obiskovalci spletne strani pregledajo "profil" registriranih uporabnikov, kjer naj bo izpisano njihovo uporabniško ime, datum registracije v sistem, število oddanih oglasov ter ocena obiskovalcev. Obsikovalec lahko nato uporabnika oceni z oceno od 1-5.
+
+ocena 9:
+
+vse za 8 +
+
+Omogoèite uporabo WSIWYG javascript urejevalnika (npr. TinyMCE) za oblikovanje vsebine oz. opisa oglasa.  Na ta naèin bodo lahko uporabniki ustvarjali oglase z vsebino obogateno s html znaèkami in css oblikovanjem.
+Poskrbite za ustrezen prikaz takšne vsebine in za ustrezno varnost (onemogoèite dodajanje javascript kode). 
+
+ 
+
+ocena 10:
+
+vse za 9 +
+
+Dodajte funkcionalnost vzpostavitve kontakta z uporabnikom, ki je oddal oglas. Pri pregledu oglasa, dodajte povezavo vzpostavi kontakt, kjer lahko spletni obiskovalci lastniku oglasa pošljejo sporoèilo. Prijavljenim uporabnikom v meni dodajte možnost pregled prejetih sporoèil, kjer lahko nato ta sporoèila preglejujejo. Pri pregledovanju sporoèil, naj bo tudi povezava na oglas, na katerega je bilo sporoèilo posredovano. 
+
+ 
+
+ 
+
+Pišite èitljivo kodo ter funkcije in spremenljivke smisleno poimenujte.
+Komentarji kode vam bodo v veliko pomoè pri zagovoru vaših vaj.

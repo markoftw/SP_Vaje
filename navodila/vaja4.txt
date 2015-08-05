@@ -1,0 +1,52 @@
+Vaja 4
+
+ 
+
+Naslednja vaja je nadgradnja vaje 2 in 3.
+
+Rok za oddajo naloge je 9. 4. 2015 ob 23.55!
+
+Oddati je potrebno vso php kodo ter vsebino podatkovne baze z strukturo tabel (dump)
+
+Oddati je potrebno .NET projekt s spletno storitvijo
+
+ 
+
+Vašo rešitev nalog 2 in 3 dopolnite tako, da boste izdelali RESTful vmesnik za dodajanje, urejanje in brisanje oglasov. Vmesnik naj uporablja HTTP metodi POST in DELETE.
+
+Izdelajte preprosto html stran, kjer boste s pomoèjo ajax zahtev in RESTful vmesnika lahko brisali oglase.
+
+Vaše komentarje iz vaje 3 pretvorite tako, da se bo pri prikazu komentajev uporabljal ajax klic RESTful vmesnika, ki vraèa vse komentarje posameznega oglasa v json obliki. RESTful vmesnik naj uporablja HTTP metodo GET, ki vrne vse komentarje za posamièni oglas v json obliki.
+
+V .NET okolju izdelajte spletno storitev, ki omogoèa dodajanje opisov (reviewov) uporabnikov, ki oddajajo oglase. Takšen opis uporabnika zraven besedila vsebuje tudi oceno. Izdelajte tudi servis, ki vrne seznam opisov s posamezno oceno. Vaše rešitve vaj 2 in 3 dopolnite tako, da bo pri prikazu uporabnika s pomoèjo klica servisa napisanega v .NET izpisan seznam vseh ocen uporabnika, obiskovalci pa bodo lahko dodali novi opis in oceno uporabnika. Slednje storite tako, da boste spletne stortive uporabljali v php kodi (ne z ajaxom).
+
+Vse navedeno je potrebno izdelati za oceno 6.
+
+Za višjo oceno implementirajte naslednje funkcionalnosti:
+
+ 
+
+Ocena 7:
+
+vse za 6 + 
+
+Izdelajte RESTful metodo, ki bo vrnila 5 zadnjih dodanih komentarjev v ajax obliki. Po potrebi razširite podatkovni model z informacijo o èasu oddaje komentarja. S pomoèjo ajax klica prikažite zadnjih 5 komentarjev na prvi strani, ter pri vsakem komentarju dodajte povezavo na oglas, h kateremu je bil komentar dodan.
+
+Ocena 8:
+
+vse za 7+
+
+Spremenite/izdelajte vmesnike za dodajanje in urejanje oglasa tako, da bodo uporabljali ajax klice izdelanega RESTful apija. Pazite na avtorizacijo.
+
+ 
+
+Ocena 9:
+vse za 8 + 
+
+Izdelajte spletno storitev v .net, ki bo vrnila 3 zadnje opise uporabnikov skupaj z ocenami. V php-ju nato dopolnite vašo uvodno stran tako, da bodo ti opisi izpisani skupaj z ocenami.
+
+Ocena 10:
+
+vse za 9 + 
+
+Pri oddaji opisov in ocen uporabnikov, oceno razdelite na 3 podocene (komunikacija, hitrost dostave, zanesljivost). Ustrezno dopolnite podatkovni model in iz navedenih treh podocen izraèunajte tudi skupno oceno. Ustrezno dopolnite tudi spletno storitev za shranjevanje ocene ter posodobite prikaz na strani, kjer so prikazani uporabniki.

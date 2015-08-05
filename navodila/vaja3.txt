@@ -1,0 +1,83 @@
+Vaja 3
+
+Naslednja vaja je nadgradnja vaje 2.
+
+ 
+
+Rok za oddajo naloge je 26. 3.2015 ob 23.55!
+
+Oddati je potrebno vso php kodo ter vsebino podatkovne baze z strukturo tabel (dump)
+
+ 
+
+Vaša naloga je nadgraditi spletno stran za oddajo oglasov izdelano pri vaji 2. 
+
+Cilj je nadgraditi spletno stran v neke vrste spletno trgovino.
+
+ 
+
+K atributom oglasa dodajte še ceno in zalogo, pri registraciji uporabnikov pa zahtevajte naslov (ulica, hišna številka, pošta) kot obvezen podatek.
+
+Nadgradite kategorije tako, da bodo te veènivojske, ter da bo možo dodajati nove kategorije. Oglasu naj bo mogoèe izbrati samo tisto kategorijo, ki bo predstavljala najgloblji nivo.
+
+Pri urejanju kategorij pazite, da kategoriji, ki že vsebuje oglase ne morete dodati podkategorij.
+
+ 
+
+Omogèite dodajanje slike k posameznemu oglasu. Vmesnik naj bo sestavljen tako, da lahko pri oddaji ali urejanju oglasa uporabnik izbere sliko (brskanje), ki se ob oddaji oglasa naloži.
+
+Za shranjevanje uporabite sql procedure in transakcijo. 
+
+ 
+
+Dodajte še komentiranje in ocenjevanje oglasov. Komentirajo lahko samo prijavljeni uporabniki, glasujejo pa lahko vsi. 
+Omogoèite še urejanje, brisanje in ocenjevanje komentarjev.
+
+Komentarje izdelajte s pomoèjo ajax tehnologije. 
+
+ 
+
+Pri prikazu oglasov omogoèite brskanje po drevesni strukturi kategorij, hkrati pa omogoèite sortiranje izdelkov po ceni in po oceni.
+
+ 
+
+ 
+
+Za višjo oceno implementirajte še naslednje funkcionalnosti:
+
+
+
+ocena 7:
+
+vse za 6 +
+
+Pri nalaganju slike omejite resolucijo slike. V primeru da je slika veèja, jo ustrezno zmanjšajte. V primeru da je slika premajhna, ne dovolite shranjevanja. Dimenzije izberite sami, glede na vašo obliko prikaza oglasov.
+
+ 
+
+ocena 8:
+
+vse za 7 +
+
+Iz slike, ki je dodana oglasu, izdelajte tudi "thumbnail" (pomanjšana slika). Vaš prikaz rezultatov posodobite tako, da se bo ob ostalih podatkih prikazovala tudi "thumbnail".
+
+ 
+
+ocena 9:
+
+vse za 8 +
+
+Omogoèite dodajanje veè slik (do 10) k posameznemu oglasu. Uporabnik naj tudi doloèi katera bo predstavitvena slika. Prikaz slik pri oglasu implementirajte tako, da je vedno prikazana le ena slika (najprej predstavitvena), ostale pa so uporabniku prikazane kot "thumbnail"-i, kjer lahko uporabnik s klikom na thumbnail poveèa želeni sliko, ki se nato prikaže (kot npr. na mimovrste.com).
+
+ 
+
+ocena 10:
+
+vse za 9 +
+
+Omogoèite nakup izdelka. Izdelek lahko kupi samo prijavljen uporabnik, neprijavljene uporabnike pa naj nakup preusmeri na registracijo. Izdelajte tudi vozièek, kamor lahko uporabnik izdelke tudi dodaja. Pri nakupu omogoèite spreminjanje kolièine oglasa, uporabniku pa prikažite informacijo o skupni ceni. Ko uporabnik zakljuèuje nakup, naj doloèi tudi naèin plaèila (povzetje, nakazilo, kreditna kartica) in naèin dostave (osebni prevzem, pošta, hitra pošta, ...). Na koncu mu prikažite tudi povzete naroèila s vsemi podatki ter ustrezno zmanjšajte zalogo oglasa. Èe je zaloga negativna uporabnika tudi obvestite, da je zaloga pošla.
+
+ 
+
+Pišite èitljivo kodo ter funkcije in spremenljivke smisleno poimenujte.
+Komentarji kode vam bodo v veliko pomoè pri zagovoru vaših vaj.
